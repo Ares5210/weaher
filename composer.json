@@ -1,0 +1,21 @@
+{
+    "name": "ares\/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wenjie",
+            "email": "ares_5210@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^8.1",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ares\\Weather\\": "src"
+        }
+    }
+}
